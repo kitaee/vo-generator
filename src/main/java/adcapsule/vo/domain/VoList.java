@@ -1,11 +1,14 @@
 package adcapsule.vo.domain;
 
+import lombok.Getter;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "vo_list")
+@Getter
 public class VoList {
 
     @Id
